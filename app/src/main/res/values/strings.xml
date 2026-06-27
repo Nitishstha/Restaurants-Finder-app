@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_add_product">AddProductActivity</string>
+    <string name="title_activity_add_restaurant">AddRestaurantActivity</string>
+    <string name="title_activity_admin_booking">AdminBookingActivity</string>
+    <string name="title_activity_admin_restaurant">AdminRestaurantActivity</string>
+    <string name="title_activity_more_screen">MoreScreenActivity</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_notification_screen">NotificationScreenActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_save_restaurants">SaveRestaurantsActivity</string>
+    <string name="title_activity_search_screen">SearchScreen</string>
+    <string name="title_activity_user_bookings_screen">UserBookingsScreen</string>
+    <string name="title_activity_user_components">UserComponents</string>
+    <string name="title_activity_user_dashboard">UserDashboardActivity</string>
+</resources>
