@@ -43,7 +43,7 @@ class AddProductActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        imageUtils = ImageUtils(this)
+        imageUtils = ImageUtils(this, this)
         imageUtils.registerLaunchers { uri: Uri? ->
             selectedImageUri = uri
         }
