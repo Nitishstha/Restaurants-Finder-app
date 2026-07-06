@@ -19,7 +19,6 @@ import com.example.restaurant.repo.RestaurantRepoImpl
 import com.example.restaurant.repo.UserRepoImpl
 import com.example.restaurant.ui.theme.Blue
 import com.example.restaurant.ui.theme.RestaurantTheme
-import com.example.restaurant.ui.theme.PrimaryOrange
 import com.example.restaurant.ui.theme.White
 import com.example.restaurant.viewmodel.RestaurantViewModel
 
