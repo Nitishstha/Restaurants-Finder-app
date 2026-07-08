@@ -214,7 +214,6 @@ fun RegisterContent(
         ) {
             Text("Register", fontWeight = FontWeight.Bold)
         }
-
         Text(
             text = buildAnnotatedString {
                 append("Already have an account? ")
