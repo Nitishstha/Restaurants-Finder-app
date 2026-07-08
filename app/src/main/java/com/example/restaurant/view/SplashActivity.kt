@@ -58,7 +58,6 @@ fun SplashBody() {
                 contentDescription = "App Logo",
                 modifier = Modifier.size(300.dp)
             )
-
             Spacer(modifier = Modifier.height(50.dp))
 
             CircularProgressIndicator(
