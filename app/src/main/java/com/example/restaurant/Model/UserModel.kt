@@ -8,7 +8,7 @@ data class UserModel(
     val dob: String = "",
     val gender: String = "",
 ) {
-    // Helper property to combine names
+
     val fullName: String get() = "$firstName $lastName".trim()
 
     fun toMap(): Map<String, Any> {
