@@ -1,5 +1,4 @@
 package com.example.restaurant.repo
-
 import com.example.restaurant.Model.BookingModel
 import com.example.restaurant.Model.RestaurantModel
 import com.google.firebase.database.*
