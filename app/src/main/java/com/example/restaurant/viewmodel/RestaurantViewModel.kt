@@ -8,11 +8,11 @@ import com.example.restaurant.repo.RestaurantRepo
 
 class RestaurantViewModel(private val repo: RestaurantRepo) : ViewModel() {
 
-    // Main list state for displaying restaurants
+
     private val _restaurants = mutableStateOf<List<RestaurantModel>>(emptyList())
     val restaurants: State<List<RestaurantModel>> = _restaurants
 
-    // Loading state for UI feedback
+
     private val _isLoading = mutableStateOf(false)
     val isLoading: State<Boolean> = _isLoading
 
