@@ -14,7 +14,6 @@ fun NotificationScreen() {
         modifier = Modifier
             .fillMaxSize()
             .background(Color.Yellow),
-
         ) {
         Text("Notification screen")
     }
