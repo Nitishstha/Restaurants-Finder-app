@@ -30,7 +30,6 @@ class ProductRepoImpl : ProductRepo {
         )
     )
 
-
     override fun addProduct(
         model: ProductModel,
         callback: (Boolean, String) -> Unit
