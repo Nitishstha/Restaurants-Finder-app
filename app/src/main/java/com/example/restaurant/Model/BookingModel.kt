@@ -8,6 +8,6 @@ data class BookingModel(
     var userEmail: String = "",
     var date: String = "",
     var time: String = "",
-    var status: String = "Pending", // Pending, Approved, Declined
+    var status: String = "Pending",
     var tableNo: String = ""
 )
