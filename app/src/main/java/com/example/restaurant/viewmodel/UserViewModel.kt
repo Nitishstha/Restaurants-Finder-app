@@ -6,6 +6,7 @@ import com.example.restaurant.Model.UserModel
 import com.example.restaurant.repo.UserRepo
 import com.google.firebase.auth.FirebaseUser
 
+
 class UserViewModel(val repo: UserRepo) : ViewModel() {
 
     fun login(email: String, password: String, callback: (Boolean, String?) -> Unit) {
