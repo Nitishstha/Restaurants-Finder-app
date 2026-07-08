@@ -39,7 +39,6 @@ fun SearchContent(
     onRestaurantClick: (RestaurantModel) -> Unit,
     onSaveClick: (String) -> Unit
 ) {
-    // Filter logic: checks if name or cuisine matches the search query
     val filtered = restaurants.filter {
         it.name.contains(query, ignoreCase = true) ||
                 it.cuisine.contains(query, ignoreCase = true)
