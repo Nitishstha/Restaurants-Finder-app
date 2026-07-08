@@ -199,7 +199,6 @@ fun ProfileScreen() {
 
                 OutlinedButton(
                     onClick = {
-
                     },
                     modifier = Modifier
                         .weight(1f)
