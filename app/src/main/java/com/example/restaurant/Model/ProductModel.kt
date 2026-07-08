@@ -7,6 +7,7 @@ data class ProductModel(
     var categoryId : String = "",
     var image : String = ""
 ){
+
     fun toMap() : Map<String,Any?>{
         return mapOf(
             "name" to name,
