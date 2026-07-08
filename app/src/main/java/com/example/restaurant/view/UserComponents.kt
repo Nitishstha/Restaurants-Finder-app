@@ -33,7 +33,6 @@ fun UserRestaurantCard(
         UserRepolmpl().getCurrentUser()?.uid ?: ""
     }
 
-    // Logic: If the user's ID is in the savedBy list, the icon should be filled
     val isSaved = restaurant.savedBy.contains(currentUserId)
 
     Card(
