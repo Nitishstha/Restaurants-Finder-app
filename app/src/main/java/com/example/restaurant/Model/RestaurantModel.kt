@@ -13,7 +13,6 @@ data class RestaurantModel(
     var deal: String? = null,
     var latitude: Double = 0.0,
     var longitude: Double = 0.0,
-    // CHANGED: List of User UIDs who saved this restaurant
     var savedBy: List<String> = emptyList()
 ) {
     fun toMap(): Map<String, Any?> {
