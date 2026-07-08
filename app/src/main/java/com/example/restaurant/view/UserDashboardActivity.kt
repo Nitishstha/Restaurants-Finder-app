@@ -30,13 +30,10 @@ class UserDashboardActivity : ComponentActivity() {
 
 @Composable
 fun UserDashboardBody() {
-    // Initialize Repository and ViewModel
     val repo = remember { RestaurantRepoImpl() }
     val viewModel = remember { RestaurantViewModel(repo) }
 
     var selectedIndex by remember { mutableIntStateOf(0) }
-
-    // Map the icons to available ones or use standard Material Icons
     val navItems = listOf(
         Pair("Home", R.drawable.outline_home_24),
         Pair("Search", R.drawable.outline_attach_file_24), // Fallback if search is missing
