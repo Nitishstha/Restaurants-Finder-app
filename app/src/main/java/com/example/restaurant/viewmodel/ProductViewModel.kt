@@ -8,7 +8,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.restaurant.Model.ProductModel
 import com.example.restaurant.repo.ProductRepo
-import com.example.restaurant.view.UserDashboardBody
 
 class ProductViewModel(val repo: ProductRepo) : ViewModel() {
 
