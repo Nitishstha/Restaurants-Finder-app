@@ -92,7 +92,6 @@ fun SavedRestaurantsScreen(viewModel: RestaurantViewModel, onBack: () -> Unit) {
                             restaurant = restaurant,
                             onClick = { /* Handle Booking */ },
                             onSaveClick = {
-                                // Logic: Toggle save by passing ID and current list to repo
                                 val repo = RestaurantRepoImpl()
                                 repo.toggleSaveRestaurant(restaurant.id, currentUserId, restaurant.savedBy) { _, _ -> }
                             }
