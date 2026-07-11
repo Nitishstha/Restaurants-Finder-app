@@ -30,7 +30,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
-import com.example.restaurant.R
 import com.example.restaurant.Utils.ImageUtils
 import com.example.restaurant.Model.ProductModel
 import com.example.restaurant.repo.ProductRepoImpl
